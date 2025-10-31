@@ -1,0 +1,129 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.icons{
+    display: flex;
+    gap: 25px;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: palevioletred;
+    height: 27px;
+    padding: 3px;
+    border-top: 3px solid white;
+}
+.content
+{
+    display: flex;
+    gap: 20px;
+    font-weight: bolder;
+}
+.button{
+    width: 100px;
+    
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    height: 60px;
+    align-items: center;
+}
+.h:hover{
+    color: palevioletred;
+}
+.leftbtn:hover{
+    color:palevioletred;
+}
+
+.img{
+    background:url(./pngtree-a-family-enjoying-their-summer-vacation-on-a-pristine-white-sandy-picture-image_13121287.jpg) center /cover no-repeat;
+    height: 800px;
+    position: relative;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+.rightcon{
+    width: 420px;
+    background-color: white;
+    height: 420px;
+    border: 5px solid pink;
+    border-radius: 30px;
+}
+.width{
+    width: 330px;
+}
+input{
+    height: 40px; 
+    border: 2.5px solid grey;
+    border-radius: 4px;
+    text-indent: 20px;
+}
+.leftcon{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.bold{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+.leftbtn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    
+}
+.pink{
+    background-color: palevioletred;
+    color: white;
+    font-weight: bolder;
+    width: 150px;
+    border-radius: 10px;
+    height: 50px;
+   
+    font-weight: bolder;
+
+}
+.pos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+.book{ 
+    
+    width: 330px;
+    height: 40px;
+    background-color: palevioletred;
+    color: white;
+    border-radius: 17px;
+
+
+}
+.head{
+    font-size: 25px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
